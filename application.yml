@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://julianagarzond:macajuvastme@ietilab9.nwo5n.mongodb.net/Ieti?retryWrites=true&w=majority
