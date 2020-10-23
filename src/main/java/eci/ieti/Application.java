@@ -138,7 +138,7 @@ public class Application implements CommandLineRunner {
 
         //Todos that contains a description with a length greater than 30 characters
         Query query4 = new Query();
-        query.addCriteria(Criteria.where("description")..gt(4));
+        query.addCriteria(Criteria.where("description").gt(4));
         List<Todo> todos4=mongoOperation.find(query3,Todo.class);
         System.out.println(todos4);
 
