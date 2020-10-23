@@ -25,6 +25,17 @@ public class Todo {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "Todo{" +
+                "description='" + description + '\'' +
+                ", priority=" + priority +
+                ", dueDate=" + dueDate +
+                ", responsible='" + responsible + '\'' +
+                ", status='" + status + '\'' +
+                '}';
+    }
+
     public String getDescription() {
         return description;
     }
