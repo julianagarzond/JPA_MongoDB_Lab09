@@ -17,14 +17,15 @@ Preguntas punto 6
 - How many customers were created in the database?
 5 customers were created
 - Where is the findAll method implemented?
-
-
+Thw findAll method comes from the repository class that extends to MongoDB
 
 - Suppose you have more than 1000 products in your database. How would you implement a method for supporting pagination and return pages of 50 products to your frontend?
- with the pageable class that java provides
+
+with the pageable class that java provides
 - How many products contain the "plus" word in their description?
-4 products contain the word plus
+
+   4 products contain the word plus
  -How many products are returned by the findByDescriptionContaining query? Why?
- 2 
+   Just 2 it was established that the page size would be 2 in the application class
  
  -Which are the collection names where the objects are stored? Where are those names assigned?
